@@ -44,7 +44,7 @@
                 <p class="p-voltar cor-letra"><span>←</span>Voltar</p>
                 <p id="vagas" class="cor-letra">VAGAS</p>
                 <p id="titulo-vaga" class="cor-letra">
-                   <%= titulo %>
+                    <%= titulo %>
                 </p>
                 <p id="titulo-requisitos" class="cor-letra fonte-cabecalho">Requisitos</p>
                 <p id="corpo-requisitos" class="cor-letra fonte-corpo">
@@ -67,35 +67,35 @@
                     <div class="moldura">
                         <p id="titulo-form">Envie seu currículo</p>
                         <label for="form-nome" class="cor-letra">Nome</label>
-                        <input type="text" class="form-control input-form" id="form-nome">
+                        <input type="text" class="form-control input-form" id="form-nome" required> 
                         <label for="form-email" class="cor-letra">E-mail</label>
-                        <input type="email" class="form-control input-form" id="form-email">
+                        <input type="email" class="form-control input-form" id="form-email" required>
                         <label for="form-cep" class="cor-letra">CEP</label>
-                        <input type="number" class="form-control input-form" id="form-cep">
+                        <input type="number" class="form-control input-form" id="form-cep" required>
                         <label for="form-end" class="cor-letra">Endereço</label>
-                        <input type="text" class="form-control input-form" id="form-end">
+                        <input type="text" class="form-control input-form" id="form-end" required>
                         <div class="row">
                             <div class="col col-form col-num">
                                 <label for="form-num" class="cor-letra">Número</label>
-                                <input type="number" class="form-control input-form" id="form-num">
+                                <input type="number" class="form-control input-form" id="form-num" required>
                             </div>
                             <div class="col col-form col-bairro">
                                 <label for="form-bairro" class="cor-letra">Bairro</label>
-                                <input type="text" class="form-control input-form" id="form-bairro">
+                                <input type="text" class="form-control input-form" id="form-bairro" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col col-form col-cidade">
                                 <label for="form-cidade" class="cor-letra">Cidade</label>
-                                <input type="text" class="form-control input-form" id="form-cidade">
+                                <input type="text" class="form-control input-form" id="form-cidade" required>
                             </div>
                             <div class="col col-form col-estado">
                                 <label for="form-estado" class="cor-letra">Estado</label>
-                                <input type="text" class="form-control input-form" id="form-estado">
+                                <input type="text" class="form-control input-form" id="form-estado" required>
                             </div>
                         </div>
                         <label for="form-arquivo" class="label-arquivo cor-letra">Currículo</label>
-                        <input type="file" class="form-control-file" id="form-arquivo" accept=".pdf, .doc">
+                        <input type="file" class="form-control-file" id="form-arquivo" accept=".pdf, .doc" required>
                     </div>
                     <div class="btn-curriculo">
                         <button class="btn btn-primary" id="btn-enviar">Enviar currículo</button>
@@ -104,7 +104,9 @@
             </div>
             <div class="d-flex corpo-lado-direito">
                 <div class="fundo-azul d-flex justify-content-center align-items-center">
-                    <img src="/vagas-01-01.png" alt="" class="img-body">
+                    <img src="/vagas-01-01.png"
+                        alt="Imagem com três pessoas, uma segurando uma lupa apontada para uma lista e duas segurando botões de aprovado ou reprovado."
+                        class="img-body">
                 </div>
             </div>
         </div>

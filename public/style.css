@@ -36,7 +36,7 @@ header, footer {
     padding: 15px;
     max-width: 490px;
     max-height: 827px;
-    background: turquoise;
+    background: rgb(230, 255, 253);
     margin-bottom: 100px;
 }
 
@@ -47,8 +47,8 @@ header, footer {
 }
 
 .fundo-azul {
-    background: royalblue;
-    height: 1122px;
+    background: rgb(32, 52, 114);
+    height: 1560px;
     max-width: 250px;
     margin-top: 127px;
     flex-wrap: wrap;
@@ -167,4 +167,9 @@ header, footer {
 .fonte-corpo {
     font-family: 'PT Serif', sans-serif;
     font-size: 19px
+}
+
+.fonte-footer {
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px;
 }

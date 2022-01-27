@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Landing Page</title>
 </head>
 
@@ -43,21 +43,25 @@
             <div class="corpo-lado-esquerdo">
                 <p class="p-voltar cor-letra"><span>←</span>Voltar</p>
                 <p id="vagas" class="cor-letra">VAGAS</p>
-                <p id="titulo-vaga" class="cor-letra">CONSULTOR DE NEGÓCIOS - VENDAS PUBLICIDADE</p>
+                <p id="titulo-vaga" class="cor-letra">
+                   <%= titulo %>
+                </p>
                 <p id="titulo-requisitos" class="cor-letra fonte-cabecalho">Requisitos</p>
-                <p id="corpo-requisitos" class="cor-letra fonte-corpo">Graduação em Marketing ou Publicidade e Propaganda.
-                    Experiência com Vendas.
-                    Conhecimento de
-                    gestão de indicadores, negociação e informática</p>
+                <p id="corpo-requisitos" class="cor-letra fonte-corpo">
+                    <%= requisitos %>
+                </p>
                 <p id="titulo-atividades" class="cor-letra fonte-cabecalho">Atividades</p>
-                <p id="corpo-atividades" class="cor-letra fonte-corpo">Graduação em Marketing ou Publicidade e Propaganda.
-                    Experiência com Vendas.
-                    Conhecimento de
-                    gestão de indicadores, negociação e informática</p>
+                <p id="corpo-atividades" class="cor-letra fonte-corpo">
+                    <%= atividades %>
+                </p>
                 <p id="titulo-perfil" class="cor-letra fonte-cabecalho">Perfil do candidato</p>
-                <p id="corpo-perfil" class="cor-letra fonte-corpo">Comunicativo, negociador, ágil e responsável.</p>
+                <p id="corpo-perfil" class="cor-letra fonte-corpo">
+                    <%= perfil %>
+                </p>
                 <p id="titulo-horario" class="cor-letra fonte-cabecalho">Horário de trabalho</p>
-                <p id="corpo-horario" class="cor-letra fonte-corpo">8 - 18h</p>
+                <p id="corpo-horario" class="cor-letra fonte-corpo">
+                    <%= horario %>
+                </p>
 
                 <form class="div-form">
                     <div class="moldura">
@@ -71,21 +75,21 @@
                         <label for="form-end" class="cor-letra">Endereço</label>
                         <input type="text" class="form-control input-form" id="form-end">
                         <div class="row">
-                            <div class="col col-num">
+                            <div class="col col-form col-num">
                                 <label for="form-num" class="cor-letra">Número</label>
                                 <input type="number" class="form-control input-form" id="form-num">
                             </div>
-                            <div class="col col-bairro">
+                            <div class="col col-form col-bairro">
                                 <label for="form-bairro" class="cor-letra">Bairro</label>
                                 <input type="text" class="form-control input-form" id="form-bairro">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col col-cidade">
+                            <div class="col col-form col-cidade">
                                 <label for="form-cidade" class="cor-letra">Cidade</label>
                                 <input type="text" class="form-control input-form" id="form-cidade">
                             </div>
-                            <div class="col col-estado">
+                            <div class="col col-form col-estado">
                                 <label for="form-estado" class="cor-letra">Estado</label>
                                 <input type="text" class="form-control input-form" id="form-estado">
                             </div>
@@ -100,7 +104,7 @@
             </div>
             <div class="d-flex corpo-lado-direito">
                 <div class="fundo-azul d-flex justify-content-center align-items-center">
-                    <img src="assets/imagem/vagas-01-01.png" alt="" class="img-body">
+                    <img src="/vagas-01-01.png" alt="" class="img-body">
                 </div>
             </div>
         </div>
@@ -111,7 +115,7 @@
                 <p>OPOVO Online</p>
             </div>
             <div class="padrao">
-                <p>OPOVO Online</p>
+                <p class="fonte-footer">Copyright 1997-2016</p>
             </div>
         </nav>
     </footer>

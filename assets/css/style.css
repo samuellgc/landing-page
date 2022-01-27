@@ -37,17 +37,18 @@ header, footer {
     max-width: 490px;
     max-height: 827px;
     background: turquoise;
+    margin-bottom: 100px;
 }
 
 .btn-curriculo {
-    padding: 15px;
+    margin-top: 12px;
     display: flex;
     justify-content: right;
 }
 
 .fundo-azul {
     background: royalblue;
-    height: 900px;
+    height: 1122px;
     max-width: 250px;
     margin-top: 127px;
     flex-wrap: wrap;

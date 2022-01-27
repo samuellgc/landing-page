@@ -1,0 +1,99 @@
+body {
+    max-width: 1926px;
+}
+
+.ul-nav {
+    gap: 10px;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+
+.padrao {
+    color: white;
+    align-self: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.li-nav {
+    list-style-type: none;
+    color: white;
+}
+
+header, footer {
+    max-width: 1926px;
+    background: blue;
+}
+
+.moldura {
+    border: 1px solid black;
+    padding: 16px;
+    max-height: 712px;
+    max-width: 457px;
+}
+
+.div-form {
+    padding: 15px;
+    max-width: 490px;
+    max-height: 827px;
+    background: turquoise;
+}
+
+.btn-curriculo {
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+}
+
+.fundo-azul {
+    background: royalblue;
+    height: 900px;
+    max-width: 250px;
+    margin-top: 127px;
+    flex-wrap: wrap;
+}
+
+.img-body {
+    max-height: 390px;
+    max-width: 390px;
+}
+
+.corpo-conteudo {
+    gap: 160px;
+    max-width: 1266px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 899px)
+{
+    .fundo-azul, .img-body, .corpo-lado-direito
+    {
+        display: none;
+        height: 0px;
+    }
+    .corpo-conteudo 
+    {
+        gap: 0px;
+    }
+}
+
+.corpo-lado-esquerdo {
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.corpo {
+    max-width: 900px;
+    flex-wrap: wrap;
+}
+
+.corpo-lado-direito {
+    flex-wrap: wrap;
+}
+
+.p-voltar {
+    margin: 50px 0;
+}
+

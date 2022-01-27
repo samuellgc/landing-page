@@ -27,7 +27,7 @@ header, footer {
 
 .moldura {
     border: 1px solid black;
-    padding: 16px;
+    padding: 15px;
     max-height: 712px;
     max-width: 457px;
 }
@@ -98,3 +98,73 @@ header, footer {
     margin: 50px 0;
 }
 
+#vagas {
+    margin-bottom: 35px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+#titulo-vaga, #corpo-requisitos, #corpo-atividades, #corpo-perfil, #corpo-horario {
+    margin-bottom: 30px;
+}
+
+#titulo-atividades, #titulo-perfil, #titulo-horario {
+    margin-bottom: 10px;
+}
+
+#titulo-form {
+    margin: 5px 0 20px 0;
+}
+
+.input-form {
+    margin: 10px 0;
+    height: 33px;
+}
+
+.col {
+    padding: 0 0px 0 15px;
+}
+
+.col-bairro, .col-estado {
+    margin-right: 15px;
+}
+
+#form-bairro, #form-estado {
+    width: 213px;
+}
+
+#form-num, #form-cidade {
+    width: 153px;
+}
+
+#col-num, #col-cidade {
+    width: 153px;
+}
+
+.label-arquivo {
+    margin-top: 35px;
+    margin-bottom: 12px;
+}
+
+#form-arquivo {
+    margin-bottom: 42px;
+}
+
+.cor-letra {
+    color: #314163;
+}
+
+#titulo-vaga {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+
+.fonte-cabecalho {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+}
+
+.fonte-corpo {
+    font-family: 'PT Serif', sans-serif;
+    font-size: 19px
+}

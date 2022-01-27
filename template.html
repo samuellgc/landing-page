@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Source+Serif+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -34,56 +41,60 @@
     <section class="container corpo d-flex align-items-center justify-content-between">
         <div class="d-flex corpo-conteudo">
             <div class="corpo-lado-esquerdo">
-                <p class="p-voltar"><span>←</span>Voltar</p>
-                <p>VAGAS</p>
-                <p>CONSULTOR DE NEGÓCIOS - VENDAS PUBLICIDADE</p>
-                <p>Requisitos</p>
-                <p>Graduação em Marketing ou Publicidade e Propaganda. Experiência com Vendas. Conhecimento de
+                <p class="p-voltar cor-letra"><span>←</span>Voltar</p>
+                <p id="vagas" class="cor-letra">VAGAS</p>
+                <p id="titulo-vaga" class="cor-letra">CONSULTOR DE NEGÓCIOS - VENDAS PUBLICIDADE</p>
+                <p id="titulo-requisitos" class="cor-letra fonte-cabecalho">Requisitos</p>
+                <p id="corpo-requisitos" class="cor-letra fonte-corpo">Graduação em Marketing ou Publicidade e Propaganda.
+                    Experiência com Vendas.
+                    Conhecimento de
                     gestão de indicadores, negociação e informática</p>
-                <p>Atividades</p>
-                <p>Graduação em Marketing ou Publicidade e Propaganda. Experiência com Vendas. Conhecimento de
+                <p id="titulo-atividades" class="cor-letra fonte-cabecalho">Atividades</p>
+                <p id="corpo-atividades" class="cor-letra fonte-corpo">Graduação em Marketing ou Publicidade e Propaganda.
+                    Experiência com Vendas.
+                    Conhecimento de
                     gestão de indicadores, negociação e informática</p>
-                <p>Perfil do candidato</p>
-                <p>Comunicativo, negociador, ágil e responsável.</p>
-                <p>Horário de trabalho</p>
-                <p>8 - 18h</p>
+                <p id="titulo-perfil" class="cor-letra fonte-cabecalho">Perfil do candidato</p>
+                <p id="corpo-perfil" class="cor-letra fonte-corpo">Comunicativo, negociador, ágil e responsável.</p>
+                <p id="titulo-horario" class="cor-letra fonte-cabecalho">Horário de trabalho</p>
+                <p id="corpo-horario" class="cor-letra fonte-corpo">8 - 18h</p>
 
                 <form class="div-form">
                     <div class="moldura">
-                        <h5>Envie seu currículo</h5>
-                        <label for="">Nome</label>
-                        <input type="text" class="form-control">
-                        <label for="">E-mail</label>
-                        <input type="email" class="form-control">
-                        <label for="">CEP</label>
-                        <input type="number" class="form-control">
-                        <label for="">Endereço</label>
-                        <input type="text" class="form-control">
+                        <p id="titulo-form">Envie seu currículo</p>
+                        <label for="form-nome" class="cor-letra">Nome</label>
+                        <input type="text" class="form-control input-form" id="form-nome">
+                        <label for="form-email" class="cor-letra">E-mail</label>
+                        <input type="email" class="form-control input-form" id="form-email">
+                        <label for="form-cep" class="cor-letra">CEP</label>
+                        <input type="number" class="form-control input-form" id="form-cep">
+                        <label for="form-end" class="cor-letra">Endereço</label>
+                        <input type="text" class="form-control input-form" id="form-end">
                         <div class="row">
-                            <div class="col">
-                                <label for="">Número</label>
-                                <input type="number" class="form-control">
+                            <div class="col col-num">
+                                <label for="form-num" class="cor-letra">Número</label>
+                                <input type="number" class="form-control input-form" id="form-num">
                             </div>
-                            <div class="col">
-                                <label for="">Bairro</label>
-                                <input type="text" class="form-control">
+                            <div class="col col-bairro">
+                                <label for="form-bairro" class="cor-letra">Bairro</label>
+                                <input type="text" class="form-control input-form" id="form-bairro">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
-                                <label for="">Cidade</label>
-                                <input type="text" class="form-control">
+                            <div class="col col-cidade">
+                                <label for="form-cidade" class="cor-letra">Cidade</label>
+                                <input type="text" class="form-control input-form" id="form-cidade">
                             </div>
-                            <div class="col">
-                                <label for="">Estado</label>
-                                <input type="text" class="form-control">
+                            <div class="col col-estado">
+                                <label for="form-estado" class="cor-letra">Estado</label>
+                                <input type="text" class="form-control input-form" id="form-estado">
                             </div>
                         </div>
-                        <label for="">Currículo</label>
-                        <input type="file" class="form-control-file" id="">
+                        <label for="form-arquivo" class="label-arquivo cor-letra">Currículo</label>
+                        <input type="file" class="form-control-file" id="form-arquivo" accept=".pdf, .doc">
                     </div>
                     <div class="btn-curriculo">
-                        <button class="btn btn-primary">Enviar currículo</button>
+                        <button class="btn btn-primary" id="btn-enviar">Enviar currículo</button>
                     </div>
                 </form>
             </div>
